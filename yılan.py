@@ -48,7 +48,7 @@ def move():
         kafa.sety(y-20)
     if kafa.direction == "right":
         x = kafa.xcor()
-        kafa.setx(x+2)
+        kafa.setx(x+20)
     if kafa.direction == "left":
         x = kafa.xcor()
         kafa.setx(x-20)
